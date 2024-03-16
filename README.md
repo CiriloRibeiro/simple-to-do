@@ -1,6 +1,6 @@
 # Vanilla JS To-Do App
 
-![To-Do App Screenshot](https://i.imgur.com/eFiBd3e.png)
+<img src="https://i.imgur.com/AzxONyJ.png" alt="To-Do App Screenshot" width="500">
 
 This is a simple to-do app created using vanilla JavaScript.
 
