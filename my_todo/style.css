@@ -31,7 +31,7 @@ body {
 .create-task input {
     width: 70%;
     height: 45px;
-    font-size: 15px;
+    font-size: 20px;
     border: 2px solid #d1d3d4;
     padding: 12px;
     color: #111111;
@@ -107,4 +107,9 @@ body {
 
 input[type="checkbox"]:checked  + span{
     text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+    width: 20px; 
+    height: 20px;
 }
