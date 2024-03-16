@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #3e5a9b, #0a0c27ae);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    height: 20rem;
+    width: 40rem;
+    padding: 30px 40px;
+    margin-top: 100px;
+}
+
+.create-task {
+    background-color: #fff;
+    padding: 20px 20px;
+    box-shadow: 0 15px 30px rgba(27, 1, 1, 0.3);
+    border-radius: 5px;
+    border: none;
+}
+
+.create-task input {
+    width: 70%;
+    height: 45px;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+}
+
+.create-task button {
+    width: 25%;
+    height: 45px;
+    float: right;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #2a66e0;
+    font: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.create-task button:hover {
+    background-color: #2655b3;
+} 
+
+.tasks {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 15px 20px;
+    border-radius: 5px;
+    max-height: 50vh;
+    overflow: auto;
+}
+
+.task-item {
+    background-color: #ffffff;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d3d4;
+}
+
+.task-item .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-item span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400px;
+    display: block;
+    margin-left: 8px;
+}
+
+.remove-task {
+    color: #ffffff;
+    background-color: #f13131;
+    height: 100%;
+    width: 80px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.remove-task:hover {
+    background-color: #6e0808;
+} 
+
+input[type="checkbox"]:checked  + span{
+    text-decoration: line-through;
+}
