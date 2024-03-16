@@ -4,6 +4,8 @@
 
 This is a simple to-do app created using vanilla JavaScript.
 
+https://ciriloribeiro.github.io/todo-vanilla-js/
+
 ## Features
 
 - Add tasks
